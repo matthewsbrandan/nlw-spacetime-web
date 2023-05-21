@@ -1,6 +1,7 @@
 import React from 'react'
 import nlwLogo from '../assets/nlw-spacetime-logo.svg'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export const Hero = () => (
   <div className="space-y-5">
@@ -15,8 +16,8 @@ export const Hero = () => (
       </p>
     </div>
 
-    <a
-      href=""
+    <Link
+      href="/memories/new"
       className="
         inline-block rounded-full 
         bg-green-500 px-5 py-3 
@@ -25,6 +26,6 @@ export const Hero = () => (
       "
     >
       Cadastrar Lembrança
-    </a>
+    </Link>
   </div>
 )
