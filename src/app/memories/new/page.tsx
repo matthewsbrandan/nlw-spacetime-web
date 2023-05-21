@@ -9,7 +9,7 @@ export default function NewMemory(){
         voltar à timeline
       </Link>
 
-      <form action="" className="flex flex-1 flex-col gap-2">
+      <form className="flex flex-1 flex-col gap-2">
         <div className="flex items-center gap-4">
           <label
             htmlFor="midia"
